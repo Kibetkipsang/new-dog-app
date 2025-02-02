@@ -11,12 +11,12 @@ function handleUpdate(){
     
 }
     return (
-        <div>
+        <div className='dog-item img'>
             {isUpdating ? (
             <>
             
             <input type='text' value={freshUrl} onChange={(e) => setFreshUrl(e.target.value)} />
-            <button onClick={handleUpdate}>Save</button>
+            <button onClick={handleUpdate} className='dog-item button'>Save</button>
             
             </>
             ): 

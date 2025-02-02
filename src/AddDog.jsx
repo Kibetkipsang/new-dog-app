@@ -16,7 +16,7 @@ const handleSubmit = (e) => {
   };
 
     return(
-        <div>
+        <div className='add-dog-form'>
             <h2>Add Dog</h2>
             <form onSubmit={handleSubmit} >
             <input 
