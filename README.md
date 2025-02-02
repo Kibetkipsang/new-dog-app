@@ -1,4 +1,4 @@
-This is the link to the app: https://dog-app-coral.vercel.app/
+This is the link to the app: https://new-dog-app.vercel.app/
 
 # Dog App
 This application allows users to view, add, remove, and update dog images fetched from "Dog CEO's Dog API". It uses React Router for navigation between the home page and the "Add Dog" page.
